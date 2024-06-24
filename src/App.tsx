@@ -58,7 +58,7 @@ function App() {
 	}
 
 	return (
-		<div className="flex flex-col items-center min-h-svh py-16 w-full max-w-sm mx-auto">
+		<div className="flex flex-col items-center min-h-svh py-16 w-full max-w-sm mx-auto px-2">
 			<h1 className="text-2xl font-bold mb-1">仏教徒診断テスト</h1>
 			<p className="text-gray-800">あなたのパーソナル仏教はなに～？</p>
 
@@ -66,7 +66,7 @@ function App() {
 				{questions.map((question, index) => (
 					<div
 						key={question}
-						className="bg-gray-100 rounded-xl py-5 px-6 w-full"
+						className="bg-gray-100 rounded-xl pt-7 pb-5 px-6 w-full"
 					>
 						<h2 className="text-xl font-bold mb-2 flex gap-1">
 							<span className="text-gray-600">Q{index + 1}.</span>
